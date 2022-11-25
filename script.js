@@ -1,4 +1,4 @@
-document.getElementById('btn').addEventListener('mouseover', function(){
+document.getElementById('btn').addEventListener('onclick', function(){
     const body = document.getElementById('body');
     const bgColor = randomRGBcolor();
     body.style.backgroundColor = bgColor;   
